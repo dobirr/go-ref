@@ -1,0 +1,62 @@
+# --- Go Build/Run Artifacts ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.coverprofile
+*.prof
+profile.*
+*.pprof
+
+# cgo / intermediate
+*.cgo1.go
+*.cgo2.c
+_cgo_*
+*.o
+*.a
+
+# Binaries & Artefaktordner
+/bin/
+/build/
+/dist/
+/out/
+/coverage/
+
+# --- Module/Workspace ---
+# WICHTIG: go.mod und go.sum NICHT ignorieren!
+# go.work meist lokal – ignorieren, außer du versionierst Workspaces bewusst.
+go.work
+go.work.sum
+
+# Vendor (nur auskommentieren, wenn du NICHT vendorst)
+# /vendor/
+
+# --- IDE/Editor ---
+# GoLand/JetBrains
+.idea/
+*.iml
+# VS Code (falls mal genutzt)
+.vscode/
+*.code-workspace
+
+# --- OS/Allgemeines ---
+.DS_Store
+Thumbs.db
+
+# --- Env & Secrets ---
+.env
+.env.*
+*.local
+*.key
+*.pem
+
+# --- Logs ---
+*.log
+
+# --- Editor-Backups/Swaps ---
+*~
+*.swp
+*.swo
