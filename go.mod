@@ -1,3 +1,3 @@
-module github.com/dobirr/go-syntax-ref
+module github.com/dobirr/go-ref
 
 go 1.25.1
